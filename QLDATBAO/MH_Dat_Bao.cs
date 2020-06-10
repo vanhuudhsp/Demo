@@ -126,7 +126,7 @@ namespace QLDATBAO
             daPDB = new SqlDataAdapter("Select * from PHIEUDATBAO", Modules.cnnStr);
             daCTDB = new SqlDataAdapter("Select * from CTDATBAO", Modules.cnnStr);
             daTC = new SqlDataAdapter("Select * from TAPCHI", Modules.cnnStr);
-
+            ///
             try
             {
                 daKH.Fill(tblKHACHHANG);
